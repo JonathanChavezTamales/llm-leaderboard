@@ -1,0 +1,79 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "MedGemma 4B IT",
+  "description": "MedGemma is a collection of Gemma 3 variants that are trained for performance on medical text and image comprehension. MedGemma 4B utilizes a SigLIP image encoder that has been specifically pre-trained on a variety of de-identified medical data, including chest X-rays, dermatology images, ophthalmology images, and histopathology slides. Its LLM component is trained on a diverse set of medical data, including radiology images, histopathology patches, ophthalmology images, and dermatology images. MedGemma is a multimodal model primarily evaluated on single-image tasks. It has not been evaluated for multi-turn applications and may be more sensitive to specific prompts than its predecessor, Gemma 3. Developers should consider bias in validation data and data contamination concerns when using MedGemma.",
+  "release_date": "2025-05-20",
+  "input_context_size": 128000,
+  "output_context_size": 8192,
+  "license": "Health AI Developer Foundations terms of use",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": "https://developers.google.com/health-ai-developer-foundations/medgemma/get-started",
+  "playground_link": null,
+  "paper_link": null,
+  "scorecard_blog_link": "https://developers.google.com/health-ai-developer-foundations/medgemma/model-card",
+  "repo_link": null,
+  "weights_link": "https://huggingface.co/google/medgemma-4b-it",
+  "param_count": 4300000000,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MIMIC CXR",
+      "score": 0.889,
+      "is_self_reported": true,
+      "analysis_method": "Average F1 for top 5 conditions",
+      "date_recorded": "2025-05-20",
+      "source_link": "https://huggingface.co/google/medgemma-4b-it"
+    },
+    {
+      "dataset_name": "CheXpert CXR",
+      "score": 0.481,
+      "is_self_reported": true,
+      "analysis_method": "Average F1 for top 5 conditions",
+      "date_recorded": "2025-05-20",
+      "source_link": "https://huggingface.co/google/medgemma-4b-it"
+    },
+    {
+      "dataset_name": "DermMCQA",
+      "score": 0.718,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-05-20",
+      "source_link": "https://huggingface.co/google/medgemma-4b-it"
+    },
+    {
+      "dataset_name": "SlakeVQA",
+      "score": 0.623,
+      "is_self_reported": true,
+      "analysis_method": "Tokenized F1",
+      "date_recorded": "2025-05-20",
+      "source_link": "https://huggingface.co/google/medgemma-4b-it"
+    },
+    {
+      "dataset_name": "VQA-Rad",
+      "score": 0.499,
+      "is_self_reported": true,
+      "analysis_method": "Tokenized F1",
+      "date_recorded": "2025-05-20",
+      "source_link": "https://huggingface.co/google/medgemma-4b-it"
+    },
+    {
+      "dataset_name": "PathMCQA",
+      "score": 0.698,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-05-20",
+      "source_link": "https://huggingface.co/google/medgemma-4b-it"
+    },
+    {
+      "dataset_name": "MedXpertQA",
+      "score": 0.188,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-05-20",
+      "source_link": "https://huggingface.co/google/medgemma-4b-it"
+    }
+  ]
+}

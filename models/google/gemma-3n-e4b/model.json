@@ -1,0 +1,111 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Gemma 3n E4B",
+  "description": "Gemma 3n is a multimodal model designed to run locally on hardware, supporting image, text, audio, and video inputs. It features a language decoder, audio encoder, and vision encoder, and is available in two sizes: E2B and E4B. The model is optimized for memory efficiency, allowing it to run on devices with limited GPU RAM. Gemma is a family of lightweight, state-of-the-art open models from Google, built from the same research and technology used to create the Gemini models. Gemma models are well-suited for a variety of content understanding tasks, including question answering, summarization, and reasoning. Their relatively small size makes it possible to deploy them in environments with limited resources such as laptops, desktops or your own cloud infrastructure, democratizing access to state of the art AI models and helping foster innovation for everyone. Gemma 3n models are designed for efficient execution on low-resource devices. They are capable of multimodal input, handling text, image, video, and audio input, and generating text outputs, with open weights for instruction-tuned variants. These models were trained with data in over 140 spoken languages.",
+  "release_date": "2025-06-26",
+  "input_context_size": 32000,
+  "output_context_size": 32000,
+  "license": "Proprietary",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2024-06-01",
+  "api_ref_link": "https://huggingface.co/blog/gemma3n",
+  "playground_link": "https://aistudio.google.com/",
+  "paper_link": null,
+  "scorecard_blog_link": "https://ai.google.dev/gemma/docs/gemma-3n",
+  "repo_link": null,
+  "weights_link": "https://huggingface.co/google/gemma-3n-E4B",
+  "param_count": 8000000000,
+  "training_tokens": 11000000000000,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "HellaSwag",
+      "score": 0.786,
+      "is_self_reported": true,
+      "analysis_method": "10-shot",
+      "date_recorded": "2025-06-26",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B"
+    },
+    {
+      "dataset_name": "BoolQ",
+      "score": 0.816,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2025-06-26",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B"
+    },
+    {
+      "dataset_name": "PIQA",
+      "score": 0.81,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2025-06-26",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B"
+    },
+    {
+      "dataset_name": "SocialIQa",
+      "score": 0.5,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2025-06-26",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B"
+    },
+    {
+      "dataset_name": "TriviaQA",
+      "score": 0.702,
+      "is_self_reported": true,
+      "analysis_method": "5-shot",
+      "date_recorded": "2025-06-26",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B"
+    },
+    {
+      "dataset_name": "Natural Questions",
+      "score": 0.209,
+      "is_self_reported": true,
+      "analysis_method": "5-shot",
+      "date_recorded": "2025-06-26",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B"
+    },
+    {
+      "dataset_name": "ARC-c",
+      "score": 0.616,
+      "is_self_reported": true,
+      "analysis_method": "25-shot",
+      "date_recorded": "2025-06-26",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B"
+    },
+    {
+      "dataset_name": "ARC-e",
+      "score": 0.816,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2025-06-26",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B"
+    },
+    {
+      "dataset_name": "WinoGrande",
+      "score": 0.717,
+      "is_self_reported": true,
+      "analysis_method": "5-shot",
+      "date_recorded": "2025-06-26",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B"
+    },
+    {
+      "dataset_name": "BIG-Bench Hard",
+      "score": 0.529,
+      "is_self_reported": true,
+      "analysis_method": "few-shot",
+      "date_recorded": "2025-06-26",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B"
+    },
+    {
+      "dataset_name": "DROP",
+      "score": 0.608,
+      "is_self_reported": true,
+      "analysis_method": "Token F1 score. 1-shot.",
+      "date_recorded": "2025-06-26",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B"
+    }
+  ]
+}

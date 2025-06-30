@@ -1,0 +1,127 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Gemini 2.5 Flash-Lite",
+  "description": "Gemini 2.5 Flash-Lite is a model developed by Google DeepMind, designed to handle various tasks including reasoning, science, mathematics, code generation, and more. It features advanced capabilities in multilingual performance and long context understanding. It is optimized for low latency use cases, supporting multimodal input with a 1 million-token context length.",
+  "release_date": "2025-06-17",
+  "input_context_size": 1048576,
+  "output_context_size": 65536,
+  "license": "Creative Commons Attribution 4.0 License",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2025-01-01",
+  "api_ref_link": "https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-flash-lite",
+  "playground_link": "https://ai.google.com/studio",
+  "paper_link": "https://arxiv.org/abs/2503.16534",
+  "scorecard_blog_link": "https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-flash-lite",
+  "repo_link": null,
+  "weights_link": null,
+  "param_count": null,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "Humanity's Last Exam",
+      "score": 0.051,
+      "is_self_reported": true,
+      "analysis_method": "No tools",
+      "date_recorded": "2023-06-17",
+      "source_link": "https://deepmind.google/models/gemini/flash-lite/"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.646,
+      "is_self_reported": true,
+      "analysis_method": "Diamond",
+      "date_recorded": "2023-06-17",
+      "source_link": "https://deepmind.google/models/gemini/flash-lite/"
+    },
+    {
+      "dataset_name": "AIME 2025",
+      "score": 0.498,
+      "is_self_reported": true,
+      "analysis_method": "Mathematics",
+      "date_recorded": "2023-06-17",
+      "source_link": "https://deepmind.google/models/gemini/flash-lite/"
+    },
+    {
+      "dataset_name": "LiveCodeBench",
+      "score": 0.337,
+      "is_self_reported": true,
+      "analysis_method": "Code generation",
+      "date_recorded": "2023-06-17",
+      "source_link": "https://deepmind.google/models/gemini/flash-lite/"
+    },
+    {
+      "dataset_name": "Aider-Polyglot",
+      "score": 0.267,
+      "is_self_reported": true,
+      "analysis_method": "Code editing",
+      "date_recorded": "2023-06-17",
+      "source_link": "https://deepmind.google/models/gemini/flash-lite/"
+    },
+    {
+      "dataset_name": "SWE-bench Verified",
+      "score": 0.316,
+      "is_self_reported": true,
+      "analysis_method": "Agentic coding single attempt",
+      "date_recorded": "2023-06-17",
+      "source_link": "https://deepmind.google/models/gemini/flash-lite/"
+    },
+    {
+      "dataset_name": "SimpleQA",
+      "score": 0.107,
+      "is_self_reported": true,
+      "analysis_method": "Factuality",
+      "date_recorded": "2023-06-17",
+      "source_link": "https://deepmind.google/models/gemini/flash-lite/"
+    },
+    {
+      "dataset_name": "FACTS Grounding",
+      "score": 0.841,
+      "is_self_reported": true,
+      "analysis_method": "Factuality",
+      "date_recorded": "2023-06-17",
+      "source_link": "https://deepmind.google/models/gemini/flash-lite/"
+    },
+    {
+      "dataset_name": "MMMU",
+      "score": 0.729,
+      "is_self_reported": true,
+      "analysis_method": "Visual reasoning",
+      "date_recorded": "2023-06-17",
+      "source_link": "https://deepmind.google/models/gemini/flash-lite/"
+    },
+    {
+      "dataset_name": "Vibe-Eval",
+      "score": 0.513,
+      "is_self_reported": true,
+      "analysis_method": "Reka",
+      "date_recorded": "2023-06-17",
+      "source_link": "https://deepmind.google/models/gemini/flash-lite/"
+    },
+    {
+      "dataset_name": "MRCR v2",
+      "score": 0.166,
+      "is_self_reported": true,
+      "analysis_method": "Long context 128k average. 8 needle.",
+      "date_recorded": "2023-06-17",
+      "source_link": "https://deepmind.google/models/gemini/flash-lite/"
+    },
+    {
+      "dataset_name": "Global-MMLU-Lite",
+      "score": 0.811,
+      "is_self_reported": true,
+      "analysis_method": "Multilingual performance",
+      "date_recorded": "2023-06-17",
+      "source_link": "https://deepmind.google/models/gemini/flash-lite/"
+    },
+    {
+      "dataset_name": "Arc",
+      "score": 0.025,
+      "is_self_reported": true,
+      "analysis_method": "Default",
+      "date_recorded": "2025-06-26",
+      "source_link": "https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-flash-lite"
+    }
+  ]
+}

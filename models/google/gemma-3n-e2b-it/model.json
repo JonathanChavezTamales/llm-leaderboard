@@ -1,0 +1,167 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Gemma 3n E2B Instructed",
+  "description": "Gemma 3n is a multimodal model designed to run locally on hardware, supporting image, text, audio, and video inputs. It features a language decoder, audio encoder, and vision encoder, and is available in two sizes: E2B and E4B. The model is optimized for memory efficiency, allowing it to run on devices with limited GPU RAM. Gemma is a family of lightweight, state-of-the-art open models from Google, built from the same research and technology used to create the Gemini models. Gemma models are well-suited for a variety of content understanding tasks, including question answering, summarization, and reasoning. Their relatively small size makes it possible to deploy them in environments with limited resources such as laptops, desktops or your own cloud infrastructure, democratizing access to state of the art AI models and helping foster innovation for everyone. Gemma 3n models are designed for efficient execution on low-resource devices. They are capable of multimodal input, handling text, image, video, and audio input, and generating text outputs, with open weights for instruction-tuned variants. These models were trained with data in over 140 spoken languages.",
+  "release_date": "2025-06-26",
+  "input_context_size": 32000,
+  "output_context_size": 32000,
+  "license": "Proprietary",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2024-06-01",
+  "api_ref_link": "https://huggingface.co/blog/gemma3n",
+  "playground_link": "https://aistudio.google.com/",
+  "paper_link": null,
+  "scorecard_blog_link": "https://ai.google.dev/gemma/docs/gemma-3n",
+  "repo_link": null,
+  "weights_link": "https://huggingface.co/google/gemma-3n-E2B-it",
+  "param_count": 8000000000,
+  "training_tokens": 11000000000000,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MGSM",
+      "score": 0.531,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2025-06-26",
+      "source_link": "https://huggingface.co/google/gemma-3n-E2B-it"
+    },
+    {
+      "dataset_name": "WMT24++",
+      "score": 0.427,
+      "is_self_reported": true,
+      "analysis_method": "Character-level F-score. 0-shot.",
+      "date_recorded": "2025-06-26",
+      "source_link": "https://huggingface.co/google/gemma-3n-E2B-it"
+    },
+    {
+      "dataset_name": "Include",
+      "score": 0.386,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2025-06-26",
+      "source_link": "https://huggingface.co/google/gemma-3n-E2B-it"
+    },
+    {
+      "dataset_name": "MMLU-ProX",
+      "score": 0.081,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2025-06-26",
+      "source_link": "https://huggingface.co/google/gemma-3n-E2B-it"
+    },
+    {
+      "dataset_name": "OpenAI MMLU",
+      "score": 0.223,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2025-06-26",
+      "source_link": "https://huggingface.co/google/gemma-3n-E2B-it"
+    },
+    {
+      "dataset_name": "Global-MMLU",
+      "score": 0.551,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2025-06-26",
+      "source_link": "https://huggingface.co/google/gemma-3n-E2B-it"
+    },
+    {
+      "dataset_name": "ECLeKTic",
+      "score": 0.025,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2025-06-26",
+      "source_link": "https://huggingface.co/google/gemma-3n-E2B-it"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.248,
+      "is_self_reported": true,
+      "analysis_method": "Diamond. 0-shot",
+      "date_recorded": "2025-06-26",
+      "source_link": "https://huggingface.co/google/gemma-3n-E2B-it"
+    },
+    {
+      "dataset_name": "LiveCodeBench v5",
+      "score": 0.186,
+      "is_self_reported": true,
+      "analysis_method": "pass@1. 0-shot.",
+      "date_recorded": "2025-06-26",
+      "source_link": "https://huggingface.co/google/gemma-3n-E2B-it"
+    },
+    {
+      "dataset_name": "Codegold v2.2",
+      "score": 0.11,
+      "is_self_reported": true,
+      "analysis_method": "pass@1. 0-shot.",
+      "date_recorded": "2025-06-26",
+      "source_link": "https://huggingface.co/google/gemma-3n-E2B-it"
+    },
+    {
+      "dataset_name": "AIME 2025",
+      "score": 0.067,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy. 0-shot.",
+      "date_recorded": "2025-06-26",
+      "source_link": "https://huggingface.co/google/gemma-3n-E2B-it"
+    },
+    {
+      "dataset_name": "MMLU",
+      "score": 0.601,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy. 0-shot.",
+      "date_recorded": "2025-06-26",
+      "source_link": "https://huggingface.co/google/gemma-3n-E2B-it"
+    },
+    {
+      "dataset_name": "MBPP",
+      "score": 0.566,
+      "is_self_reported": true,
+      "analysis_method": "pass@1. 3-shot.",
+      "date_recorded": "2025-06-26",
+      "source_link": "https://huggingface.co/google/gemma-3n-E2B-it"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.665,
+      "is_self_reported": true,
+      "analysis_method": "pass@1. 0-shot.",
+      "date_recorded": "2025-06-26",
+      "source_link": "https://huggingface.co/google/gemma-3n-E2B-it"
+    },
+    {
+      "dataset_name": "LiveCodeBench",
+      "score": 0.132,
+      "is_self_reported": true,
+      "analysis_method": "pass@1. 0-shot.",
+      "date_recorded": "2025-06-26",
+      "source_link": "https://huggingface.co/google/gemma-3n-E2B-it"
+    },
+    {
+      "dataset_name": "HiddenMath",
+      "score": 0.277,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy. 0-shot.",
+      "date_recorded": "2025-06-26",
+      "source_link": "https://huggingface.co/google/gemma-3n-E2B-it"
+    },
+    {
+      "dataset_name": "Global-MMLU-Lite",
+      "score": 0.59,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy. 0-shot.",
+      "date_recorded": "2025-06-26",
+      "source_link": "https://huggingface.co/google/gemma-3n-E2B-it"
+    },
+    {
+      "dataset_name": "MMLU-Pro",
+      "score": 0.405,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy. 0-shot.",
+      "date_recorded": "2025-06-26",
+      "source_link": "https://huggingface.co/google/gemma-3n-E2B-it"
+    }
+  ]
+}

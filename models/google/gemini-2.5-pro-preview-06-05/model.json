@@ -124,7 +124,7 @@
       "source_link": "https://blog.google/products/gemini/gemini-2-5-pro-latest-preview/"
     },
     {
-      "dataset_name": "Global MMLU (Lite)",
+      "dataset_name": "Global-MMLU-Lite",
       "score": 0.892,
       "is_self_reported": true,
       "analysis_method": "Multilingual performance",

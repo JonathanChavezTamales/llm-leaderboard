@@ -3,6 +3,14 @@
   "website": "https://together.ai/",
   "providermodels": [
     {
+      "model_id": "gemma-3n-e4b-it",
+      "price_per_input_token": 0.00002,
+      "price_per_output_token": 0.00004,
+      "throughput": 42.09,
+      "latency": 0.43,
+      "updated_at": "2025-06-30"
+    },
+    {
       "model_id": "llama-3.1-8b-instruct",
       "price_per_input_token": 0.0000002,
       "price_per_output_token": 0.0000002,
