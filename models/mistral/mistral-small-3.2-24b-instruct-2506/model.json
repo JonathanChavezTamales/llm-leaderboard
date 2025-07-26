@@ -1,0 +1,151 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": "mistralai/Mistral-Small-3.1-24B-Base-2503",
+  "name": "Mistral Small 3.2 24B Instruct",
+  "description": "Mistral-Small-3.2-24B-Instruct-2506 is a minor update of Mistral-Small-3.1-24B-Instruct-2503.",
+  "release_date": "2025-06-20",
+  "input_context_size": 131000,
+  "output_context_size": 131000,
+  "license": "Apache-2.0",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2023-10-01",
+  "api_ref_link": null,
+  "playground_link": "https://console.mistral.ai/",
+  "paper_link": null,
+  "scorecard_blog_link": null,
+  "repo_link": null,
+  "weights_link": "https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+  "param_count": 23600000000,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMLU",
+      "score": 0.8050,
+      "is_self_reported": true,
+      "analysis_method": "5-shot",
+      "date_recorded": "2025-06-20",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506"
+    },
+    {
+      "dataset_name": "MMLU-Pro",
+      "score": 0.6906,
+      "is_self_reported": true,
+      "analysis_method": "5-shot CoT",
+      "date_recorded": "2025-06-20",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.6942,
+      "is_self_reported": true,
+      "analysis_method": "5-shot",
+      "date_recorded": "2025-06-20",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.4422,
+      "is_self_reported": true,
+      "analysis_method": "5-shot CoT",
+      "date_recorded": "2025-06-20",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506"
+    },
+    {
+      "dataset_name": "GPQA Diamond",
+      "score": 0.4613,
+      "is_self_reported": true,
+      "analysis_method": "5-shot CoT",
+      "date_recorded": "2025-06-20",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506"
+    },
+    {
+      "dataset_name": "MBPP Plus",
+      "score": 0.7833,
+      "is_self_reported": true,
+      "analysis_method": "Pass@5",
+      "date_recorded": "2025-06-20",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506"
+    },
+    {
+      "dataset_name": "HumanEval Plus",
+      "score": 0.9290,
+      "is_self_reported": true,
+      "analysis_method": "Pass@5",
+      "date_recorded": "2025-06-20",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506"
+    },
+    {
+      "dataset_name": "SimpleQA",
+      "score": 0.1210,
+      "is_self_reported": true,
+      "analysis_method": "TotalAcc",
+      "date_recorded": "2025-06-20",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506"
+    },
+    {
+      "dataset_name": "WildBench",
+      "score": 0.6533,
+      "is_self_reported": true,
+      "analysis_method": "v2",
+      "date_recorded": "2025-06-20",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506"
+    },
+    {
+      "dataset_name": "Arena Hard",
+      "score": 0.4310,
+      "is_self_reported": true,
+      "analysis_method": "v2",
+      "date_recorded": "2025-06-20",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506"
+    },
+    {
+      "dataset_name": "IF",
+      "score": 0.8478,
+      "is_self_reported": true,
+      "analysis_method": "Internal Evaluation",
+      "date_recorded": "2025-06-20",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506"
+    },
+    {
+      "dataset_name": "MMMU",
+      "score": 0.6250,
+      "is_self_reported": true,
+      "analysis_method": "Internal Evaluation",
+      "date_recorded": "2025-06-20",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506"
+    },
+    {
+      "dataset_name": "MathVista",
+      "score": 0.6709,
+      "is_self_reported": true,
+      "analysis_method": "Internal Evaluation",
+      "date_recorded": "2025-06-20",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506"
+    },
+    {
+      "dataset_name": "ChartQA",
+      "score": 0.8740,
+      "is_self_reported": true,
+      "analysis_method": "Internal Evaluation",
+      "date_recorded": "2025-06-20",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506"
+    },
+    {
+      "dataset_name": "DocVQA",
+      "score": 0.9486,
+      "is_self_reported": true,
+      "analysis_method": "Internal Evaluation",
+      "date_recorded": "2025-06-20",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506"
+    },
+    {
+      "dataset_name": "AI2D",
+      "score": 0.9291,
+      "is_self_reported": true,
+      "analysis_method": "Internal Evaluation",
+      "date_recorded": "2025-06-20",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506"
+    }
+  ]
+}
