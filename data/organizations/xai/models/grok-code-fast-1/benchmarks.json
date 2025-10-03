@@ -1,0 +1,20 @@
+[
+  {
+    "model_benchmark_id": 22227,
+    "benchmark_id": "swe-bench-verified",
+    "model_id": "grok-code-fast-1",
+    "score": 0.708,
+    "normalized_score": 0.708,
+    "is_self_reported": true,
+    "self_reported_source_link": "https://x.ai/blog/grok-code-fast-1",
+    "verified_by_llmstats": false,
+    "analysis_method": "full subset, internal harness",
+    "verification_provider_id": null,
+    "verification_hardware": null,
+    "verification_date": null,
+    "verification_notes": null,
+    "created_at": "2025-10-03T00:00:00.000000+00:00",
+    "updated_at": "2025-10-03T00:00:00.000000+00:00",
+    "benchmark_name": "SWE-Bench Verified"
+  }
+]
