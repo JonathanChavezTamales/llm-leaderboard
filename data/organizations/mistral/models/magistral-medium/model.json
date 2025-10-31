@@ -6,7 +6,7 @@
   "description": "Trained solely with reinforcement learning on top of Mistral Medium 3, Magistral Medium is a reasoning model that achieves strong performance on complex math and code tasks without relying on distillation from existing reasoning models. The training uses an RLVR framework with modifications to GRPO, enabling improved reasoning ability and multilingual consistency.",
   "release_date": "2025-06-10",
   "announcement_date": "2025-06-10",
-  "license_id": "apache_2_0",
+  "license_id": "proprietary",
   "multimodal": true,
   "knowledge_cutoff": "2025-06-01",
   "param_count": 24000000000,

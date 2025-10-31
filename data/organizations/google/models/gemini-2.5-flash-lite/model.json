@@ -6,7 +6,7 @@
   "description": "Gemini 2.5 Flash-Lite is a model developed by Google DeepMind, designed to handle various tasks including reasoning, science, mathematics, code generation, and more. It features advanced capabilities in multilingual performance and long context understanding. It is optimized for low latency use cases, supporting multimodal input with a 1 million-token context length.",
   "release_date": "2025-06-17",
   "announcement_date": "2025-06-17",
-  "license_id": "creative_commons_attribution_4_0_license",
+  "license_id": "proprietary",
   "multimodal": true,
   "knowledge_cutoff": "2025-01-01",
   "param_count": null,
