@@ -1,0 +1,9 @@
+{
+  "organisation_id": "abc",
+  "name": "ABC",
+  "website": "https://abc.com",
+  "description": null,
+  "country": null,
+  "created_at": "2025-11-14T15:30:00.000000+00:00",
+  "updated_at": "2025-11-14T15:30:00.000000+00:00"
+}
